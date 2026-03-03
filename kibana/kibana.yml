@@ -1,0 +1,16 @@
+# Kibana configuration
+
+server.name: kibana
+server.host: "0.0.0.0"
+elasticsearch.hosts: ["http://elasticsearch:9200"]
+
+# Logging configuration
+logging.dest: stdout
+logging.verbose: false
+
+# Timezone configuration
+timezone: UTC
+
+# Optimize Kibana
+csp.strict: false
+
